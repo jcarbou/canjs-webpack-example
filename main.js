@@ -1,6 +1,8 @@
 var DefineMap = require('can-define/map/map');
 var stache = require('can-stache');
 
+require('can-stache-bindings');
+
 var AppVM = DefineMap.extend({
     message: {
         type: 'string',

@@ -4,14 +4,15 @@
   "description": "Example of using CanJS 3 and Webpack.",
   "main": "index.js",
   "dependencies": {
-    "can-connect": "^1.0.17",
     "can-component": "^3.0.3",
     "can-compute": "^3.0.4",
+    "can-connect": "^1.0.17",
     "can-define": "^1.0.6",
     "can-route": "^3.0.5",
-    "can-set": "^1.0.3",
     "can-route-pushstate": "^3.0.1",
+    "can-set": "^1.0.3",
     "can-stache": "^3.0.15",
+    "can-stache-bindings": "^3.0.5",
     "raw-loader": "^0.5.1",
     "webpack": "^1.14.0"
   },
