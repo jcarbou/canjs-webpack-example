@@ -1,0 +1,36 @@
+{
+  "name": "canjs-webpack-example",
+  "version": "1.0.0",
+  "description": "Example of using CanJS 3 and Webpack.",
+  "main": "index.js",
+  "dependencies": {
+    "can-connect": "^1.0.17",
+    "can-component": "^3.0.3",
+    "can-compute": "^3.0.4",
+    "can-define": "^1.0.6",
+    "can-route": "^3.0.5",
+    "can-set": "^1.0.3",
+    "can-route-pushstate": "^3.0.1",
+    "can-stache": "^3.0.15",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasenlehara/canjs-webpack-example.git"
+  },
+  "keywords": [
+    "canjs",
+    "webpack"
+  ],
+  "author": "Chasen Le Hara",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chasenlehara/canjs-webpack-example/issues"
+  },
+  "homepage": "https://github.com/chasenlehara/canjs-webpack-example#readme"
+}
