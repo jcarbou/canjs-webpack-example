@@ -1,7 +1,17 @@
-var DefineMap = require("can-define/map/map");
-var stache = require("can-stache");
+var AppVM = can.DefineMap.extend({
+    message: {
+        type: 'string',
+        value: 'Chat Home'
+    },
+    addExcitement: function(){
+        this.message = this.message + '!';
+    }
+});
 
-var data = new DefineMap({message: "Hello World"});
-var template = stache(require('raw-loader!./main.stache'));
+var appVM = new AppVM();
 
-document.body.appendChild(template(data));
+var template = can.stache.from('template');
+var frag = template(appVM);
+
+document.body.appendChild(frag);
+document.getElementById('click-this').click();
