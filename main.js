@@ -1,4 +1,7 @@
-var AppVM = can.DefineMap.extend({
+var DefineMap = require('can-define/map/map');
+var stache = require('can-stache');
+
+var AppVM = DefineMap.extend({
     message: {
         type: 'string',
         value: 'Chat Home'
@@ -10,7 +13,7 @@ var AppVM = can.DefineMap.extend({
 
 var appVM = new AppVM();
 
-var template = can.stache.from('template');
+var template = stache.from('template');
 var frag = template(appVM);
 
 document.body.appendChild(frag);
