@@ -11,7 +11,7 @@
     "can-route": "^3.0.5",
     "can-set": "^1.0.3",
     "can-route-pushstate": "^3.0.1",
-    "can-stache": "^3.0.15",
+    "can-stache": "^3.0.16",
     "raw-loader": "^0.5.1",
     "webpack": "^1.14.0"
   },
